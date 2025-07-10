@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>L.T SYSTEMS</title>
+  <meta charset="UTF-8">
+  <title>L.T Systems</title>
   <style>
     body {
       margin: 0;
-      background-color: #0a0a0a;
-      color: #fff;
-      font-family: sans-serif;
-      text-align: center;
-      padding: 40px 20px;
+      font-family: Arial, sans-serif;
+      background-color: #000;
     }
 
-    img {
-      max-width: 100%;
+    .container {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .image {
+      width: 100%;
       height: auto;
-      border-radius: 12px;
-      box-shadow: 0 0 30px #000;
+      display: block;
     }
 
-    .email-button {
-      margin-top: 20px;
-      padding: 12px 28px;
-      background-color: #ffc107;
-      color: #000;
+    .button {
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 14px 28px;
+      font-size: 18px;
+      color: white;
+      background-color: #0077b6;
       border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
+      border-radius: 6px;
       text-decoration: none;
-      display: inline-block;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
     }
 
-    .email-button:hover {
-      background-color: #e0a800;
+    .button:hover {
+      background-color: #005f87;
     }
   </style>
 </head>
 <body>
 
-  <a href="lt-systems.PNG" target="_blank">
-    <img src="lt-systems.PNG" alt="L.T SYSTEMS Poster" />
-  </a>
-
-  <br>
-
-  <a class="email-button" href="mailto:Shroogma8@gmail.com">Contact Us</a>
+  <div class="container">
+    <img src="lt-systems.PNG" alt="L.T Systems" class="image">
+    <a href="mailto:Shroogma8@gmail.com" class="button">Contact Us</a>
+  </div>
 
 </body>
 </html>
